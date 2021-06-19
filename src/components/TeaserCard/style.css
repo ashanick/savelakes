@@ -1,0 +1,28 @@
+.teaserContainer {
+    box-sizing: border-box;
+    width: 33%;
+    margin-right: 1%;
+}
+
+.teaserImageContainer {
+    width:100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.teaserImageContainer img {
+    max-width:100%;
+    max-height: 100%;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+.paraText {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paraTitle {
+    text-align: center;
+    text-transform: uppercase;
+}

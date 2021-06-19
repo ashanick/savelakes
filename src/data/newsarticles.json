@@ -1,0 +1,24 @@
+{
+    "data" : [
+        {"id": "1", 
+            "cdCategory": "damage",
+            "cdLake": "all",
+            "cdImage": "noun_Pollution_3523271.png", 
+            "cdTitle": "Lake protection", 
+            "cdDesc": "Centre for Sciences", 
+            "cdSource": "Centre for Science and Environemnt", 
+            "cdText": " National Green Tribunal",
+            "cdDate": "None",
+            "cdLink": "https://www.cseindia.org/cases-on-protection-of-lakes-2563"},
+        {"id": "2", 
+            "cdCategory": "damage",
+            "cdLake": "all",
+            "cdImage": "noun_Think Outside the box_1561532.png", 
+            "cdTitle": "Lake protection", 
+            "cdDesc": "Encoruage ban of polluting detergents",
+            "cdSource": "The New Indian Express", 
+            "cdText": "We adore cleanliness, but how can we encourage the poor Indians who use detergents that are killing the environment?",
+            "cdDate": "Saturday, June 13, 2021",
+            "cdLink": "https://www.newindianexpress.com/nation/2021/jun/14/delhi-bans-soaps-detergents-not-conforming-to-latest-bis-parameters-to-curb-pollution-in-yamuna-2316264.html"}
+    ]
+}

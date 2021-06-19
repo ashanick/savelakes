@@ -1,0 +1,17 @@
+.card {
+    width: 100%
+}
+
+.card-header {
+    width: 100%;
+    display: 'flex'
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-image img {
+    max-width: 50%;
+    max-height: 100%;
+}

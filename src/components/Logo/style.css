@@ -1,0 +1,10 @@
+.logo {
+    text-align:center;
+}
+
+.logo p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-decoration:violet;
+    color:indianred;
+}

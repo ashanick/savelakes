@@ -1,0 +1,106 @@
+.card {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+}
+
+.card-title {
+    display: block;
+    line-height: 32px;
+    margin-bottom: 2px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align:left;
+    padding-left: 20px;
+    text-transform: uppercase;
+    color:hotpink
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-content {
+    margin: none;
+    border-radius: 0 0 2px 2px;
+}
+.card-description {
+  margin: 0;
+}
+
+img {
+    border-style: none;
+}
+
+.btn-floating.btn-large.halfway-fab {
+    bottom: -28px;
+}
+
+.btn-floating.halfway-fab {
+    position: absolute;
+    right: 24px;
+    bottom: -20px;
+}
+
+.btn-floating.btn-large {
+    width: 56px;
+    height: 56px;
+    padding: 0;
+}
+
+.btn-large {
+    height: 54px;
+    line-height: 54px;
+    font-size: 15px;
+    padding: 0 28px;
+}
+
+.btn-floating {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.btn, .btn-large, .btn-small {
+    text-decoration: none;
+    color: #fff;
+    background-color:red;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+}
+
+.btn, .btn-large, .btn-small, .btn-floating, .btn-large, .btn-small, .btn-flat {
+    font-size: 14px;
+    outline: 0;
+}

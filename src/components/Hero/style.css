@@ -1,0 +1,16 @@
+.ourStory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 210, 120);
+    box-sizing: border-box;
+    border-radius: 40%;
+    padding: 10px 30px;
+    margin: 5px 50px;
+}
+
+.polClean {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}

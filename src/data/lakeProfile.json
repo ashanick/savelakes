@@ -1,0 +1,10 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "lakeName": "Belandur Lake",
+            "lakeImage" : "taralake3.jpg",
+            "lakeDesc" : "Hosker halli lake is now here in Bangalore and we have a lot of work to do"
+        }
+    ]
+}
