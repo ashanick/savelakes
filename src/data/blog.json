@@ -25,6 +25,19 @@
             "blogDesc" : "Bats really help",
             "blogLink" : "https://newatlas.com/environment/adaptable-sponge-phosphate-polluted-waterways-reuse/",
             "blogText": "What if we can clean up the mess, and repurpose the waste? Phosporous, a key element for the growth of plants and animals, is a by-product of our soaps and detergents. The unchecked quantity that is fast flowing into our waters is causing the unchecked growth of algae which is killing our water ways."
+        },
+        {
+            "id": "3",
+            "blogCategory": "Featured",
+            "blogLake": "Belandur",
+            "blogTitle" : "A ban on detergents",
+            "slug": "health-and-threats",
+            "postedOn": "JUne 14, 2021",
+            "author": "Asha",
+            "blogImage": "taralake3.jpg",
+            "blogDesc" : "Bats really help",
+            "blogLink" : "https://newatlas.com/environment/adaptable-sponge-phosphate-polluted-waterways-reuse/",
+            "blogText": "What if we can clean up the mess, and repurpose the waste? Phosporous, a key element for the growth of plants and animals, is a by-product of our soaps and detergents. The unchecked quantity that is fast flowing into our waters is causing the unchecked growth of algae which is killing our water ways."
         }
     ]
 }
