@@ -6,9 +6,11 @@ import lakeProfile from '../../data/lakeProfile.json'
 import Tabs from '../Tabs'
 import Chronicles from '../Chronicles'
 
-function LakeProfileHoskereHalli(props) {
-    console.log(lakeProfile)
-    const postId = 1
+function IndivLake(props) {
+    console.log('Lake Profile')
+
+    const postId = props.match.params.lakeName
+    console.log(postId)
 
     const [post, setPost] = useState({
         id: "",
@@ -17,20 +19,21 @@ function LakeProfileHoskereHalli(props) {
         lakeDesc: ""
     })
 
-    console.log(props)
-
     useEffect(() => {
         const tempData = lakeProfile.data.find(post=>post.id===postId);
         setPost(tempData)
         console.log('In UF')
         console.log(post)
-    }, [post])
+    }, [post,props.match.params.lakeName ])
 
-    if (post.blogImage==="") return null;
+    if (post.lakeImage==="") return "";
+
+    console.log('After effect')
+    console.log(post)
 
     return (
-        <section className="container"> 
-            <div className="row" style={{display: 'flex'}}>
+        <div className="container"> 
+            <div className="row" >
                 <div className="col-md-4" >
                     <div className="card" >
                         <div className="card-header">
@@ -38,16 +41,14 @@ function LakeProfileHoskereHalli(props) {
                         </div>
                         <div className="card-body">
                             <div className="card-image">
-                                <img src={img1} alt="main" />
+                                <img alt="postimage" src={require(`../../blogPostImages/` + post.lakeImage).default}/>
                             </div>
                             <div className="card-text">
                                 <p>{post.lakeDesc}</p>
                             </div>
-
-                            {/* <img className="card-img-top" src={require(`../../blogPostImages/` + post.blogImage).default} alt="cardimage"></img> */}
-                        </div>
+                        </div> 
                         <section >
-                            <div style={{display: `flex`, margin: '0 0%'}}>
+                            <div style={{ margin: '0 0%'}}>
                                 <div>
                                 <div className="card" >
                                     <div className="card-header">
@@ -101,12 +102,12 @@ function LakeProfileHoskereHalli(props) {
                             </Tabs>
                         </div> 
                     </div>
-                    <Chronicles />
+                    <Chronicles id={post.id}/>
                 </div>
             </div>
-    </section>
+    </div>
 
 )
 }
 
-export default LakeProfileHoskereHalli
+export default IndivLake

@@ -20,13 +20,14 @@ const Navbar =(props)=> {
     const searchClass= search? 'searchInput active': 'searchInput'
     console.log('Nav')
     console.log(props)
+    const tempLake = "Belandur"
     return (
         <div className="navbar">
         <ul className="navbarmenu">
-            <li><NavLink to="/LakeProfile" style={{color: `green`, paddingLeft: `-10px 20px`}}>Lake Profile</NavLink></li>
-            <li><NavLink to="/HealthThreats" style={{color:`brown`, paddingr: `0 20px`}}>Health & Threats</NavLink></li>
-            <li><NavLink to="/BrilliantWork" style={{color:`blue`}}>Brilliant Work</NavLink></li>
-            <li><NavLink to="/Post" style={{color:`green`}}>Stories</NavLink></li>
+            <li><NavLink to="/LakeProfile/Belandur" style={{fontWeight: '500',  color: `skyblue`, paddingLeft: `-10px 20px`}}>Lake Profile</NavLink></li>
+            <li><NavLink to="/HealthThreats" style={{color:`brown`, paddingr: `0 20px`}}>Existential Threats</NavLink></li>
+            <li><NavLink to="/BrilliantWork" style={{color:`blue`, fontFamily: `cursive`}}>Rejuvenation Efforts</NavLink></li>
+            <li><NavLink to="/Post/1" style={{color:`green`}}>Stories</NavLink></li>
         </ul>
         <div className="search">
             <form onSubmit={submitSearch}>

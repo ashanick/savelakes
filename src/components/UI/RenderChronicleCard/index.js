@@ -5,29 +5,32 @@ import noun1 from '../../../blogPostImages/noun_Pollution_3523271.png'
 const RenderChronicleCard = (props) => {
     console.log('card chronicle')
     console.log(props)
-    const {cdTitle, cdDesc, cdText, cdLink, cdDate} ={...props.article}
-    console.log(cdLink)
+    const {cdTitle, cdDesc, cdText, cdLink, cdDate, cdSource, cdImage} ={...props.article}
+    const tempImage = "../../../blogPostImages/"+ cdImage
+    console.log(tempImage)
+
     return (
         <div className="card">
             <div className="card-header">
                 <div className="row">
                     <div className="col-md-3">
                         <div className="card-image">
-                            <img alt="noneom" src={noun1} />
+                        <img alt="postimage" src={require(`../../../blogPostImages/` + cdImage).default}/>
                         </div>
                     </div>
                     <div className="col-md-9">
                         <div className="row">
                             <h5>{cdTitle}</h5>
+                            <p>{cdDesc}</p>
                         </div>
                         <div className="row">
-                         <p>Source : <a href="{cdLink}" target="_blank"> {cdDesc}</a></p>
+                         <p>Source : <a href="{cdLink}" target="_blank"> {cdSource}</a>,   --Dated: {cdDate}</p>
+                        </div>
+                        <div className="row">
+                        <p>{cdText}</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="card-body">
-                <p>{cdText}</p>
             </div>
             
         </div>

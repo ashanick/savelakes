@@ -20,7 +20,7 @@ function App(props) {
           <Hero />
           <Route path="/" exact component={Home}></Route>
           <Route path="/AboutUs" component={AboutUs}></Route>
-          <Route path="/LakeProfile" component={LakeProfile}></Route>
+          <Route path="/LakeProfile/:lakeName" component={LakeProfile}></Route>
           <Route path="/HealthThreats" component={HealthThreats}/>
           <Route path="/BrilliantWork" component={BrilliantWork} />
           <Route path="/Post/:id"  component = {Post}/>

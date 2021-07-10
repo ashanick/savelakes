@@ -8,7 +8,7 @@ const Hero =(props)=> {
     return (
         <div>
             <PCard>
-                <div style={{padding: `100px 40`}}>
+                <div style={{padding: `10px `}}>
                     <Logo />
 
                 </div>

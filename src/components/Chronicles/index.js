@@ -1,22 +1,35 @@
 import React from 'react'
 import './style.css'
-import encroach from '../../blogPostImages/encroach.jpeg'
+
 import chronicles from '../../data/newsarticles.json'
 import RenderChronicleCard from '../UI/RenderChronicleCard'
 import PCard from '../UI/PCard'
 
-const Chronicles = () => {
-    
+const Chronicles = (props) => {
+    console.log('Chronicle')
+    console.log(props)
     const tempData = chronicles.data
-    console.log(tempData)
-    const renderChronicleList = tempData.map((article)=>{
+    const lakeId = props.id
+    console.log(lakeId)
+
+    const renderChronicleList = tempData.filter(article=> article.cdLake === lakeId).map(filteredLake=>{
         return (
             <div className="col-md-12 cardStyle" >
-                <RenderChronicleCard article={article}/>
+                <RenderChronicleCard article={filteredLake}/>
             </div>
 
         )
     })
+    console.log('filered')
+    console.log(renderChronicleList)
+    // const renderChronicleList = tempData.map((article)=>{
+    //     return (
+    //         <div className="col-md-12 cardStyle" >
+    //             <RenderChronicleCard article={article}/>
+    //         </div>
+
+    //     )
+    // })
 
     return (
         <PCard>

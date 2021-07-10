@@ -1,10 +1,24 @@
 {
     "data" : [
         {
-            "id": 1,
-            "lakeName": "Belandur Lake",
-            "lakeImage" : "taralake3.jpg",
+            "id": "Hoskerehalli",
+            "lakeName": "Hoskerehalli Lake",
+            "lakeImage" : "hoskerehalli-deccanherald-nov11-2019.jpg",
             "lakeDesc" : "Hosker halli lake is now here in Bangalore and we have a lot of work to do"
+        },
+
+        {
+            "id": "Belandur",
+            "lakeName": "Belandur Lake",
+            "lakeImage" : "taralakeencroach.jpg",
+            "lakeDesc" : "Once a large interconnected lake in the Koramangalla Challagata valley, today Belandur represts the outcomes of cavalier actions."
+        },
+
+        {
+            "id": "Jakkur",
+            "lakeName": "Jakkur Lake",
+            "lakeImage" : "taralake3.jpg",
+            "lakeDesc" : "Once a large interconnected lake in the Koramangalla Challagata valley, today Belandur represts the outcomes of cavalier actions."
         }
     ]
 }
