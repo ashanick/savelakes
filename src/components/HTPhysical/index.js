@@ -36,7 +36,7 @@ const HTPhysical = () => {
 
     return (
         <section className="container">
-            <h2>Encorachments etc are the bane of our existence</h2>
+            <h2>Encorachments WUOOO etc are the bane of our existence</h2>
             <div className="row" style={{display: 'flex'}}>
                     <div>{renderHealthList}</div>
                 </div>
